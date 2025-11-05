@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 2 - Task 3: To-Do WebApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left">
+      <h1>LEVEL 2</h1>
+      <h2>TASK 3</h2>
+      <div class="icon">📝</div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right">
+      <h3>A BASIC TO-DO WEBAPP</h3>
+      <p>
+        Add, complete, edit, or delete your daily tasks. Completed tasks will automatically
+        move to the completed section. Stay organized every day!
+      </p>
+
+      <div class="todo-app">
+        <div class="input-section">
+          <input type="text" id="taskInput" placeholder="Enter a new task...">
+          <button id="addBtn">Add Task</button>
+        </div>
+
+        <div class="task-lists">
+          <div class="pending-tasks">
+            <h4>Pending Tasks</h4>
+            <ul id="pendingList"></ul>
+          </div>
+
+          <div class="completed-tasks">
+            <h4>Completed Tasks</h4>
+            <ul id="completedList"></ul>
+          </div>
+        </div>
+      </div>
+
+      <p>For demo <a href="#">Click</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
